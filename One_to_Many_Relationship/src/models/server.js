@@ -49,7 +49,7 @@ const run = async function () {
 };
 
 mongoose
-    .connect("mongodb://localhost/bezkoder_db", {
+    .connect("mongodb://127.0.0.1/bezkoder_db", {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
